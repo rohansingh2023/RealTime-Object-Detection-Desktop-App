@@ -7,8 +7,8 @@ import cv2
 import tensorflow as tf
 import sys
 
-from YOLOv3.yolo_v3 import Yolo_v3
-from YOLOv3.utils import load_images, load_class_names, draw_boxes, draw_frame
+from yolov3.yolo_v3 import Yolo_v3
+from yolov3.utils import load_images, load_class_names, draw_boxes, draw_frame
 
 tf.compat.v1.disable_eager_execution()
 
